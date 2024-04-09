@@ -94,10 +94,6 @@ SELECT * FROM TABLE (information_schema.task_history())
 WHERE name IN ('CURATED_CITY_TASK', 'CURATED_WEATHER_TASK')
 ORDER BY scheduled_time;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 1e3948ab7d0ffbf32c500e7bac243d8dbff93326
 -------------------------------------------------- CONSUMPTION_ZONE TASKS --------------------------------------------------
 USE SCHEMA consumption_zone;
 
