@@ -17,11 +17,6 @@ SHOW STREAMS;
 SELECT * FROM landing_stm_city;
 SELECT * FROM landing_stm_weather;
 
-
-DROP STREAM milano_landing_stm_city;
-DROP STREAM milano_landing_stm_weather;
-
-
 -------------------------------------------------- CURATED_ZONE STREAMS --------------------------------------------------
 USE SCHEMA curated_zone;
 
