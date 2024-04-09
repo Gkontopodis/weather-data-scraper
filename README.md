@@ -15,11 +15,8 @@ The user may set the following parameters through the params.yaml:
 
 ## Execute the code
 To start scraping data all you have to do is to clone this repository, and set the parameters *data_folder_path* (where the data will land) and *api_key* (communication with the weather API). Finally, execute the script scraper.py. Python is required to be installed on your machine, along with its necessary libraries listed in the requirements.txt. Data in JSON format will start landing in the defined directory every hour (one JSON per city). After arrival, the data is ingested to the data warehouse automatically (if configuration parameters have been set in the params.yaml).
-<<<<<<< HEAD
 
 To test only the downloader execute the script download_only.py
-=======
->>>>>>> 1e3948ab7d0ffbf32c500e7bac243d8dbff93326
 
 ## Docker deployment instructions
 
