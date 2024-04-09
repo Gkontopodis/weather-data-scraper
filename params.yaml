@@ -1,0 +1,11 @@
+api_key: 'a854d91d892c0fbdddac934cc012b259'
+data_folder_path: 'C:/Users/ikontopodis/Desktop/test/data'
+
+snowflake_params:
+  user: 'ikontopodis'
+  password: ''
+  account: 'ikuuptd-fi40288'
+  warehouse: 'COMPUTE_WH'
+  database: 'WEATHER'
+  schema: 'LANDING_ZONE'
+  stage: 'test'
